@@ -19,7 +19,7 @@ def day02(filepath, part2=False):
     with open(filepath) as fin:
         lines = [line.strip() for line in fin.readlines()]
 
-
+    ranges = [x.split('-') for x in lines[0].split(',')]
 
     return 0
 
